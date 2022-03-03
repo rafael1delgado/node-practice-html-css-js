@@ -9,7 +9,12 @@
 */
 
 let auto = {
-    nombre:"",
-    modelo:""
- };
+  nombre: "ferrari",
+  modelo: "f8"
+};
  
+auto.__proto__.motor = '720 cv';
+auto.__proto__.origen = 'ginebra';
+
+console.log(auto);
+console.log(auto.__proto__);

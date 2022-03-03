@@ -6,3 +6,16 @@
 */
 
 let arr = [10,20,30,40,50,60,70];
+
+
+function buscarNumero(number) {
+  let numberFound = arr.find((e) => e === number );
+  if(numberFound) {
+    return numberFound;
+  }
+  return null;
+}
+
+let r = buscarNumero(1);
+
+console.log(r);

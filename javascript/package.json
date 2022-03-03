@@ -1,0 +1,15 @@
+{
+  "name": "node-practica-html-css-js",
+  "version": "1.0.0",
+  "description": "Ejercicios de html, css y js.",
+  "main": "ejercicio_1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rafael Delgado",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0"
+  },
+  "type": "module"
+}

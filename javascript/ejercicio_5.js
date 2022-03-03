@@ -14,3 +14,19 @@
 let arr = [10,20,30,40,50,60,70];
 
 let data = [80, 90, 100];
+
+// forma 1 
+
+let i = 0;
+let arrayNew = [...arr];
+for (let index = 0; index < data.length; index++) {
+  arrayNew.push(data[index]);
+}
+
+console.log(arrayNew);
+
+
+// forma 2
+
+let arrayNuevo = [...arr, ...data];
+console.log(arrayNuevo);

@@ -24,3 +24,15 @@
  console.log("*******");
 
 */
+
+let cantidadPuntos = 7;
+let cantidadLineas = 4;
+let caracteres = [];
+
+for(let j = 0; j < cantidadLineas; j++) {
+  caracteres = [];
+  for(let i = 0; i < cantidadPuntos; i++) {
+    caracteres.push('*');
+  } 
+  console.log(caracteres.join(''));
+}

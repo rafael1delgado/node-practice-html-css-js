@@ -7,7 +7,19 @@
 */
 
 let auto = {
-    nombre:"",
-    modelo:""
- };
+    nombre: 'ferrari',
+    modelo: 'f8',
+    origen: 'ginebra',
+
+    __proto__: {
+      motor: '720cv',
+      mostrarOrigen() {
+        return auto.origen; // duda
+      }
+  }
+};
+
+console.log(auto);
+console.log(auto.__proto__.mostrarOrigen());
+
  
